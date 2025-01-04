@@ -31,7 +31,7 @@ const obj4 = {5: "a" ,6: "b"}
 
 const obj3 = {...obj1, ...obj2, ...obj4}
 
-console.log(obj3);
+// console.log(obj3);
 
 const users = [
     {
@@ -62,4 +62,32 @@ const users = [
 
 
 
+const course = {
+    coursename: "js in hindi",
+    price: 999,
+    courseInstructor: "hitesh"
+}
 
+
+// console.log(course.price);
+
+const {courseInstructor : Instructor} = course
+
+// console.log(Instructor);
+
+/*  Json format API
+{
+    "coursename": "js in hindi",
+    "price": 999,
+    "courseInstructor": "hitesh"
+}
+
+
+   Array API format
+[
+  {},
+  {},
+  {}
+]
+
+*/
