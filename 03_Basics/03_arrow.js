@@ -33,7 +33,9 @@ const user = {
 
 // const addTwo = (num1, num2) => num1 + num2  // implicit
 
-const addTwo = (num1, num2) => (num1 + num2) 
+// const addTwo = (num1, num2) => (num1 + num2) 
+
+const addTwo = (num1, num2) => ({username: "krishna"})
 
 console.log(addTwo(2, 3));
 
