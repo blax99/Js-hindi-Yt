@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React</title>
+</head>
+<body>
+    <button>button</button>
+
+    <script>
+        // class react{
+        //     constructor() {
+        //     this.library = 'react'
+        //     this.server = 'https://localhost.3000/'
+
+        //     document
+        //     .querySelector('button')
+        //     .addEventListener('click', this.handleClick.bind(this) )
+        //     }
+
+        //     handleClick() {
+        //         console.log('button clicked');
+        //         console.log(this.server);                
+        //     }
+        // }
+        // const app = new react()
+
+        function person() {
+            fname = 'harry'
+            lname = 'kane'
+
+            function getFullName(){
+                return `${this.fname}+${this.lname}`
+            }
+        }
+
+        function anotherPerson() {
+            fname = 'Mary'
+            lname = 'Jane'
+        }
+
+        const fullName = person.getFullName()
+        console.log(fullName.bind(anotherPerson));
+
+
+
+    </script>
+</body>
+</html>
