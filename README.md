@@ -1,2 +1,2 @@
 # Js-hindi-Yt
-Js basics
+Js basics from 'Chai aur Code' channel.
