@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure</title>
+</head>
+<body style="background-color: brown;">
+    <button id="orange-btn">Orange</button>
+    <button id="green-btn">Green</button>
+    
+</body>
+<script>
+    // function adderTwo(){
+    //     let num = 2
+
+    //     // closure
+    //     function addedTo(value){
+    //         console.log(num + value);
+    //     }
+
+    //     return addedTo
+    // }
+
+    // let Add = adderTwo()
+    // Add(5)
+</script>
+
+<script>
+    function changeColor(color) {
+
+        return function(){
+             document.body.style.backgroundColor = `${color}`
+        }
+    }
+    const orange = document.getElementById('orange-btn')
+    const green = document.getElementById('green-btn')
+
+    orange.addEventListener('click', changeColor('orange'))
+    green.addEventListener('click', changeColor('green'))
+</script>
+
+
+</html>
