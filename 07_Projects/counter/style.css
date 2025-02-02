@@ -1,0 +1,26 @@
+
+#countLabel{
+    display: block;
+    font-family: sans-serif;
+    font-size: 10em;
+    text-align: center;
+}
+
+.counterBtn{
+    text-align: center;
+}
+
+.buttons {
+   padding: 10px;
+   font-size: 1.5em;
+   margin: 10px;
+   color: azure;
+   background-color: hsl(240, 65%, 76%);
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.25s;
+}
+
+.buttons:hover {
+    background-color: hsl(270, 90%, 68%);
+}
