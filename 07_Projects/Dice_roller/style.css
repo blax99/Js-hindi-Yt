@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    text-align: center;
+    background-color: hsl(209, 28%, 85%);
+    margin: auto;
+    padding: 15px;
+    border: 2px solid hsl(0, 25%, 62%);
+    border-radius: 10px;
+    max-width: 350px;
+}
+
+h1{
+    color: hsl(240, 32%, 59%);
+    text-decoration: underline rgb(189, 132, 132);
+}
+
+#diceBox{
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+
+.container label{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+button{
+    background-color: hsl(0, 95%, 48%);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(0, 95%, 58%);
+}
+
+button:active{
+    background-color: hsl(0, 95%, 68%);
+}
+
+#result{
+    margin: 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: rgb(50, 50, 219);
+}
+
+#images img{
+    width: 100px;
+    padding: 5px;
+}
+
