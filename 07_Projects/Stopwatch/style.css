@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsla(0, 5%, 80%, 0.973);
+}
+
+#myH1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    color: hsl(0, 3%, 16%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+#display{
+    font-size: 4rem;
+    font-family: monospace;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px hsla(0, 3%, 58%, 0.582);
+    padding: 20px;
+}
+
+.clockBtn button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease ;
+}
+
+#startBtn{
+    background-color: hsl(120, 73%, 34%);
+}
+
+#startBtn:hover{
+    background-color: hsl(120, 73%, 24%);
+}
+
+#stopBtn{
+    background-color: hsl(0, 100%, 54%);
+}
+
+#stopBtn:hover{
+    background-color: hsl(0, 100%, 44%);
+}
+
+#resetBtn{
+    background-color: hsl(240, 69%, 54%);
+}
+
+#resetBtn:hover{
+    background-color: hsl(240, 69%, 44%);
+}
