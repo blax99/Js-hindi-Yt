@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GAME</title>
+</head>
+<body>
+    <h1>Rock - Paper - Scissor</h1>
+
+    <div class="choices">
+        <button onclick="playGame('rock')" id="rock">👊</button>
+        <button onclick="playGame('paper')" id="paper">✋</button>
+        <button onclick="playGame('scissor')" id="scissor">✌</button>
+    </div>
+
+    <div class="choiceDisplay">
+        <div id="player">Player: <span id="playerChoice"></span></div>
+        <div id="computer">Computer: <span id="computerChoice"></span></div>
+    </div>
+
+    <div id ="resultDisplay"></div>
+
+    <div id="scoreDisplay">
+        <div>Player Score: <span id="playerScore">0</span></div>
+        <div>Computer Score: <span id="computerScore">0</span></div>
+    </div>
+    
+
+<script src="./game.js"></script>
+</body>
+</html>
