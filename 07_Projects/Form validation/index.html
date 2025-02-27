@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create account</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="./form.js"></script>
+</head>
+<body>
+    <form action="#" id="form" method="get">
+        <h2>Create Account</h2>
+        <div class="input-controls">
+            <label for="Username">Username</label>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" name="Username" id="username" placeholder="Enter username">
+            <div class="error"></div>
+        </div>
+        <div class="input-controls">
+            <label for="Email">Email</label>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" name="Email" id="email" placeholder="Enter email">
+            <div class="error"></div>
+        </div>
+        <div id="gender">
+            <label for="gender">Gender :</label>
+            <input type="radio" name="gender" class="gender"><i class="fa-solid fa-mars"></i> Male
+            <input type="radio" name="gender" class="gender"><i class="fa-solid fa-venus"></i> Female            
+            <div class="error"></div>
+        </div>
+        <div class="input-controls">
+            <label for="Password">Password</label>
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" name="Password" id="password" placeholder="Enter password">
+            <div class="error"></div>
+        </div>
+        <div class="input-controls">
+            <label for="Password2">Re-enter Password</label>
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" name="Password2" id="password2" placeholder="Enter password again">
+            <div class="error"></div>
+         
+        <button type="submit" id="submitBtn">Sign in</button>
+    </div>
+    </form>
+</body>
+</html>

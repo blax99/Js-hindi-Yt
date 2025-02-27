@@ -1,0 +1,87 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    background-color: hsl(268, 15%, 50%);
+    background-size: cover;
+}
+
+h2{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    background-color: rgb(216, 175, 175);
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    margin: 12vh auto 0 auto;
+}
+
+
+.input-controls input{
+    width: 93%;
+    padding: 8px 10px;     
+    font-size: 1em;
+    background-color: rgb(209, 212, 212);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 2px solid rgb(230, 203, 203);
+} 
+
+i{
+    color: gray;
+}
+
+.input-controls input:focus{
+    outline: 0;
+}
+.input-controls label{
+    font-size: 1.1rem;
+    margin: 4px;
+}
+
+button{
+    width: 100%;
+    font-size: 1rem;
+    padding: 5px 8px;
+    color: white;
+    background-color: hsl(253, 77%, 59%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+
+button:hover{
+    background-color: hsl(253, 77%, 64%);
+}
+
+button:active{
+    background-color: hsl(253, 77%, 70%);
+}
+
+#gender{
+    font-size: 18px;
+    padding-left: 2px;
+    margin-left: 2px;
+}
+
+.error{
+    height: 20px;
+    color: rgb(184, 23, 23);
+    padding: 2px 1px;
+    font-size: 13px;
+}
+
+.errorArea input{
+    border-color: rgb(216, 27, 27);
+}
+
+.successArea input{
+    border-color: rgb(30, 214, 30);
+}
