@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gray;
+}
+
+.container{
+    width: 400px;
+    border: 2px solid;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+
+.header{
+    padding: 15px;
+    background-color: rgb(41, 41, 199);
+    border-radius: 4px 4px 0 0;
+    margin-bottom: 15px;
+    color: white;
+}
+
+label{
+    display: block;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 80%;
+    font-size: 1.2rem;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+.output-container{
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+
+#output{
+    font-size: 2rem;
+    margin-top: 8px;
+    font-weight: bold;
+}
