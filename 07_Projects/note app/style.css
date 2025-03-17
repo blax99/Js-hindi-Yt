@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 40px 0;
+    background: hsl(120, 7%, 47%);
+}
+
+#note{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    gap: 40px;
+    justify-content: center;
+}
+
+.note-box{
+    height: 250px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+    background: #e2dada;
+    resize: none;
+    border: none;
+    outline: none;
+} 
+
+.add-note{
+    height: 250px;
+    font-size: 12rem;
+    color: hsl(0, 32%,32%);
+    background: hsl(120, 7%, 37%);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
